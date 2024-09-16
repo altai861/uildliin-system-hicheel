@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Үйлдлийн систем - Lab 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h2>Даалгавар 1</h2>
+        <button id="d1-clear-button">clear</button> <br><br>
+        <label for="d1-cpu-number-input">CPU-ийн тоо</label>
+        <input type="number" id="d1-cpu-number-input"> <br><br>
+        <label for="d1-program-number-input">Программын тоо</label>
+        <input type="number" id="d1-program-number-input">
+        <br>
+        <br>
+        <div id="d1-program-duration-inputs">
+
+        </div>
+        <button id="d1-calculate-button">Calculate</button>
+        <div id="d1-answer"></div>
+    </div>
+    <div>
+        <h2>Даалгавар 2</h2>
+        <button id="d2-clear-button">Clear</button>
+        <br><br>
+        <label for="d2-cpi-input">Процессорын 1 цикл (nanoseconds)</label>
+        <input type="number" id="d2-cpi-number">
+        <br><br>
+        <label for="d2-instruction-number">Программын зааврын тоо</label>
+        <input id="d2-instruction-number" type="number">
+        <br><br>
+        <div id="instructions-cpi">
+
+        </div>
+
+        <br><br>
+        <button id="d2-calculate-button">Calculate</button>
+        <br><br>
+        <div id="d2-answer"></div>
+    </div>
+    <div>
+        <h2>Даалгавар 3</h2>
+        <button id="d3-clear-button">Clear</button>
+        <br><br>
+        <label for="d3-clock-f-input">Клокын давтамж (ггц)</label>
+        <input type="number" id="d3-clock-f-input">
+        <br><br>
+        <button id="d3-calculate-button">Calculate</button>
+        <p id="d3-answer"></p>
+    </div>
+
+    <script src="d1.js"></script>
+    <script src="d2.js"></script>
+    <script src="d3.js"></script>
+</body>
+</html>
